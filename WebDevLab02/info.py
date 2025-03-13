@@ -2,7 +2,8 @@ import os
 import streamlit as st
 
 # --- Bluey Themed Profile ---
-profile_picture = "Images/bluey.png"
+profile_picture = "/mount/src/webbdevlab02/WebDevLab02/Images/bluey.png"
+
 
 about_me = """
 I'm Bluey, a playful and curious Australian cattle pup! I love playing games, learning new things, 
