@@ -3,22 +3,20 @@ import streamlit as st
 # --- PAGE CONFIGURATION ---
 st.set_page_config(page_title="Home - Bluey's Portfolio", page_icon="🐶", layout="wide")
 
+from streamlit_extras.switch_page_button import switch_page
+import streamlit as st
+
 # --- SIDEBAR NAVIGATION ---
-import streamlit as st
-
-st.sidebar.page_link("Home_Page.py", label="🏠 Home")
-st.sidebar.page_link("pages/_PhaseII.py", label="📊 Data Exploration")
-
-
-import streamlit as st
-
-st.sidebar.title("Navigation")
+st.sidebar.title("🔗 Navigate")
 
 if st.sidebar.button("🏠 Home"):
-    st.switch_page("Home_Page")
+    switch_page("Home_Page")
+
+if st.sidebar.button("🐶 Portfolio Page"):
+    switch_page("portfolio")
 
 if st.sidebar.button("📊 Data Exploration"):
-    st.switch_page("pages._PhaseII")
+    switch_page("PhaseII")
 
 
 
