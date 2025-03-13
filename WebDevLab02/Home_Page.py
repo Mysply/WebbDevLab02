@@ -4,7 +4,11 @@ import streamlit as st
 st.set_page_config(page_title="Home - Bluey's Portfolio", page_icon="🐶", layout="wide")
 
 # --- SIDEBAR NAVIGATION ---
-from streamlit_extras.switch_page_button import switch_page
+import streamlit as st
+
+st.sidebar.page_link("Home_Page.py", label="🏠 Home")
+st.sidebar.page_link("pages/_PhaseII.py", label="📊 Data Exploration")
+
 
 st.sidebar.title("🔗 Navigate")
 if st.sidebar.button("🏠 Home"):
