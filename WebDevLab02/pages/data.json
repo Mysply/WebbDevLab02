@@ -1,0 +1,14 @@
+{
+  "data": [
+      {"category": "Games", "subcategory": "Keepy Uppy", "fun_level": 95},
+      {"category": "Games", "subcategory": "Magic Xylophone", "fun_level": 90},
+      {"category": "Family Time", "subcategory": "Playing with Bingo", "fun_level": 100},
+      {"category": "Family Time", "subcategory": "Movie Night", "fun_level": 85},
+      {"category": "Adventures", "subcategory": "Camping", "fun_level": 90},
+      {"category": "Adventures", "subcategory": "Beach Day", "fun_level": 88},
+      {"category": "School Activities", "subcategory": "Art Class", "fun_level": 85},
+      {"category": "School Activities", "subcategory": "Show and Tell", "fun_level": 80},
+      {"category": "Helping Others", "subcategory": "Helping Dad", "fun_level": 80},
+      {"category": "Helping Others", "subcategory": "Tidying Up", "fun_level": 70}
+  ]
+}
