@@ -42,7 +42,6 @@ course_data = {
     ]
 }
 
-# --- Experience ---
 experience_data = {
     "Game Inventor": (
         [
@@ -50,7 +49,7 @@ experience_data = {
             "- Developed a unique storytelling app to accompany game rules",
             "- Created digital versions of some popular games in Python"
         ],
-        "Images/blueygaming.jpeg"
+        "/mount/src/webbdevlab02/WebDevLab02/Images/blueygaming.jpeg"  # ✅ Fixed path
     ),
     "Junior Coder at TechPups": (
         [
@@ -58,7 +57,7 @@ experience_data = {
             "- Helped organize coding workshops for young learners",
             "- Implemented fun animations in Python for educational purposes"
         ],
-        "Images/blueycoding.jpeg"
+        "/mount/src/webbdevlab02/WebDevLab02/Images/blueycoding.jpeg"  # ✅ Fixed path
     ),
     "Family Helper": (
         [
@@ -66,9 +65,10 @@ experience_data = {
             "- Designed a chore management system for siblings using Python",
             "- Learned leadership and teamwork by helping Bingo and friends"
         ],
-        "Images/blueyhelping.jpeg"
-    )
+        "/mount/src/webbdevlab02/WebDevLab02/Images/blueyhelping.jpeg"  # ✅ Fixed path
+    ),
 }
+
 
 # --- Projects ---
 projects_data = {
