@@ -107,13 +107,15 @@ leadership_data = {
             "- Organized weekly game nights for family and friends",
             "- Designed schedules and activities to ensure everyone had fun"
         ],
-        "Images/blueyleader.jpeg"
+        "/mount/src/webbdevlab02/WebDevLab02/Images/blueyleader.jpeg"  # ✅ Fixed path
     )
 }
 
+# --- Activities ---
 activity_data = {
     "Play Club with Bingo and Friends": [
         "- Created new games like 'Magic Asparagus' and 'Keepy Uppy'",
         "- Hosted storytelling sessions for all members"
     ]
 }
+
