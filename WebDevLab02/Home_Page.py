@@ -10,11 +10,16 @@ st.sidebar.page_link("Home_Page.py", label="🏠 Home")
 st.sidebar.page_link("pages/_PhaseII.py", label="📊 Data Exploration")
 
 
-st.sidebar.title("🔗 Navigate")
+import streamlit as st
+
+st.sidebar.title("Navigation")
+
 if st.sidebar.button("🏠 Home"):
-    switch_page("Home_Page")
+    st.switch_page("Home_Page")
+
 if st.sidebar.button("📊 Data Exploration"):
-    switch_page("PhaseII")
+    st.switch_page("pages._PhaseII")
+
 
 
 # --- HEADER ---
